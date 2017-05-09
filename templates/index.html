@@ -2,31 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Faces of U.S. Senate</title>
+    <title>Dans Homepage</title>
     <link rel="stylesheet" href="/static/bootstrap.css">
-    <link rel="stylesheet" href="/static/mystyles.css">
+    <link rel="stylesheet" href="/static/homepage.css">
   </head>
-  <body>
+  <body class="homepage">
 
     <section class="container">
-      <h1>The U.S. Senate</h1>
+      <h1>Welcome to Dan's homepage</h1>
+      <ul class="mylinks">
+        <li>
+          <a href="/hello">Hello world</a>
+        </li>
+        <li>
+          <a href="/senators/F000062">Senator Dianne Feinstein</a>
+        </li>
+        <li>
+          <a href="/senators/C001098">Senator Ted Cruz</a>
+        </li>
+        <li>
+          <a href="/senators">All U.S. Senators</a>
+        </li>
 
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-
-        <section class="senators">
-          {% for s in senators %}
-            <div class="senator">
-              <a href="/senators/{{ s.bioguide_id }}">
-                <div class="mugshot party-{{ s.party }}">
-                  <img src="https://theunitedstates.io/images/congress/225x275/{{ s.bioguide_id }}.jpg" alt="hey">
-                </div>
-              </a>
-            </div>
-          {% endfor %}
-        </section>
+      </ul>
     </section>
 
   </body>

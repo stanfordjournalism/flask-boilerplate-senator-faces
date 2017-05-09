@@ -10,13 +10,17 @@ def helloworld():
 
 @app.route("/")
 def homepage():
-    return render_template('index.html', senators=get_senators())
+    return render_template('index.html')
+
+@app.route("/senators")
+def senators():
+    return render_template('senators.html', senators=get_senators())
+
 
 @app.route("/senators/<bio_id>")
 def senator_profile(bio_id):
     senator = get_senator(bio_id)
     return render_template('senator.html', senator=senator)
-
 
 
 if __name__ == '__main__':

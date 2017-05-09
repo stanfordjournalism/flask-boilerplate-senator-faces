@@ -1,0 +1,19 @@
+.mylinks a{
+    color: hotpink;
+    font-family: "Comic Sans MS", "Papyrus", "Arial", sans-serif;
+    font-size: 20px;
+}
+
+
+
+.homepage{
+    background: #DDD;
+    margin-top: 3.0em;
+}
+
+
+.homepage h1{
+    font-family: "Papyrus", "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
