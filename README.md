@@ -5,7 +5,7 @@
 From your command line, run the following to download the repo to your own computer:
 
 ```sh
-$ git clone git@github.com:stanfordjournalism/flask-boilerplate-senator-faces.git
+$ git clone https://github.com/stanfordjournalism/flask-boilerplate-senator-faces.git
 ```
 
 To run the app, which starts a webserver on your own machine at the address (URL) of `127.0.0.1:5000` (aka `localhost:5000`:
