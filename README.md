@@ -55,6 +55,12 @@ Senator images from: https://github.com/unitedstates/images
 
 Legislator data: https://sunlightlabs.github.io/congress/#legislator-spreadsheet
 
-Flask app tutorial:
+The legislator data as a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1DFuMVHfnTAWGIbXHJIh_gcIAA8Yv96BsHTe6Juzr76k/edit#gid=0).
 
-http://www.compjour.org/homework/flask-app-101/
+[Sen. Ted Cruz on ProPublica Represent](https://projects.propublica.org/represent/members/C001098-ted-cruz)
+
+
+Flask app tutorial: http://www.compjour.org/homework/flask-app-101/
+
+
+
