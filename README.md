@@ -15,7 +15,7 @@ $ cd flask-boilerplate-senator-faces
 $ python app.py
 ```
 
-## Exploratory edits
+## Exploratory edits/tasks
 
 Best way to get acquainted with the moving parts of this web application is to edit the code yourself.
 
@@ -30,17 +30,29 @@ A web application can serve up plain old *static* HTML, i.e. a text file that ne
 
 #### Messing around with CSS
 
+This app includes the Bootstrap 4 (Alpha) framework, which is documented here:
+https://v4-alpha.getbootstrap.com/
+
 
 ### Understanding Jinja templating and dynamic pages
 
+Jinja is a mini-programming language that allows the use of code in otherwise plain HTML files:
+
+- http://jinja.pocoo.org/docs/2.9/templates/
+- https://realpython.com/blog/python/primer-on-jinja-templating/
 
 ### Changing the application code in app.py
 
+- Add a proper 404 page
+  + An example of a badly routed system: https://www.reddit.com/r/politics/comments/6a0tqp/donald_trumps_muslim_ban_disappears_from_website/dhaxxz8/
+  + The pattern for ``/press-releases/someblahblahblah/`` would not 404 but go to the press releases pages:
+    - It's fixed now: https://www.donaldjtrump.com/press-releases/my-plan-to-fuck-the-poor
+    - Archive snapshot: https://web.archive.org/web/20170509073233/https://www.donaldjtrump.com/press-releases/my-plan-to-fuck-the-poor
+
+- Let's create a non-dynamic route listing Senator twitter accounts
+- Let's create a dynamic route that lists all senators who were born on a given day
+
 ### Changing how the data is wrangled in the helpers code
-
-
-
-
 
 
 
