@@ -1,4 +1,4 @@
-# Faces of Senators Flask Boilerplate App
+# US Senators Flask Boilerplate App
 
 ## Getting started
 
